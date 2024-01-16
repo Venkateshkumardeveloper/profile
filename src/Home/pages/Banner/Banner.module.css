@@ -1,0 +1,144 @@
+.main{
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 4rem;
+}
+
+.banneritems{
+    display: flex;
+    gap: 65%;
+}
+
+.banneritems1{
+    display: flex;
+    gap: 1rem;
+}
+
+.banneritems1text{
+    font-size: 900;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    padding: 0.2rem;
+}
+.banneritems1text1{
+    font-size: 900;
+    font-weight: bold;
+    padding: 0.2rem;
+
+}
+
+.details{
+    display: flex;
+    height: 100vh;
+    gap: 20%;
+}
+
+.about{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+.hello{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+.nairobi{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 15px;
+}
+
+.ui{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0 0 20px;
+    color: orange;
+}
+.description{
+    color: #555;
+    font-weight: 400;
+}
+
+.button{
+    background: #0b0b13;
+    border-color: #0b0b13;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer!important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    line-height: 42px;
+    padding: 0 25px;
+    position: relative;
+    text-decoration: none!important;
+    transition: .4s;
+}
+.image{
+    background-image: url('../../../assets/nairobi.png');
+   /* min-height: 100vh; */
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 2rem;
+
+    height:40rem;
+    background-color: #f5f0ff;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius:20%;
+}
+
+
+
+@media screen and (max-width:1084px) {
+    
+
+    .banneritems{
+        display: flex;
+        flex-direction: column;
+    }
+    .details{
+        display: flex;
+        height: 100vh;
+        gap: 20%;
+        width: 100%;
+        position: relative;
+    }
+    .nairobi{
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .ui{
+        font-size: 3rem;
+        font-weight: 200;
+        color: orange;
+    }
+
+    .description{
+        color:black;
+        font-weight: 500;
+    }
+
+    .about{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .image{
+        width: 100%;
+        opacity: 0.5;
+        
+
+    } 
+
+    
+}
