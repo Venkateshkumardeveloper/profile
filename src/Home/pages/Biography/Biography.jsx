@@ -10,11 +10,19 @@ import { FaPinterestP } from "react-icons/fa6";
 import { FcSmartphoneTablet } from "react-icons/fc";
 import { IoDesktopSharp } from "react-icons/io5";
 import { GiArcheryTarget } from "react-icons/gi";
-
-
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 
 const Biography = () => {
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1
+  // };
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -25,43 +33,42 @@ const Biography = () => {
     <>
       <div className={styles.main}>
         <div className={styles.bio}>
-          <div data-aos="fade-up" className={styles.mainimage} >
+          <div data-aos="fade-up" className={styles.mainimage}>
             <div className={styles.image}>
-            <div className={styles.imagelogo}>
-              <i className={styles.icons}>
-                {" "}
-                <FaFacebook />
-              </i>
-            </div>
-            <div className={styles.imagelogo1}>
-              <i className={styles.icons}>
-                {" "}
-                <FaTwitterSquare />
-              </i>
-            </div>
-            <div className={styles.imagelogo2}>
-              <i className={styles.icons}>
-                {" "}
-                <FaInstagram />
-              </i>
-            </div>
-            <div className={styles.imagelogo3}>
-              <i className={styles.icons}>
-                {" "}
-                <FaLinkedinIn />
-              </i>
-            </div>
+              <div className={styles.imagelogo}>
+                <i className={styles.icons}>
+                  {" "}
+                  <FaFacebook />
+                </i>
+              </div>
+              <div className={styles.imagelogo1}>
+                <i className={styles.icons}>
+                  {" "}
+                  <FaTwitterSquare />
+                </i>
+              </div>
+              <div className={styles.imagelogo2}>
+                <i className={styles.icons}>
+                  {" "}
+                  <FaInstagram />
+                </i>
+              </div>
+              <div className={styles.imagelogo3}>
+                <i className={styles.icons}>
+                  {" "}
+                  <FaLinkedinIn />
+                </i>
+              </div>
 
-            <div className={styles.imagelogo4}>
-              <i className={styles.icons}>
-                {" "}
-                <FaPinterestP />
-              </i>
+              <div className={styles.imagelogo4}>
+                <i className={styles.icons}>
+                  {" "}
+                  <FaPinterestP />
+                </i>
+              </div>
             </div>
-            </div>
-            
           </div>
-          <div className={styles.info} >
+          <div className={styles.info}>
             <p>Ux/Ui Designer</p>
             <h3>Nairobi Gadot</h3>
           </div>
@@ -134,68 +141,132 @@ const Biography = () => {
           </div>
           <div className={styles.card} data-aos="fade-right">
             <div className={styles.carddetails}>
-              <i>< FcSmartphoneTablet  className={styles.whaticons} /></i>
+              <i>
+                <FcSmartphoneTablet className={styles.whaticons} />
+              </i>
               <div className={styles.whaticondetails}>
-                <h5 style={{fontSize:"1.25rem"}}>WebDesign</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                       eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h5 style={{ fontSize: "1.25rem" }}>WebDesign</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
               </div>
             </div>
             <div className={styles.carddetails}>
-              <i><IoDesktopSharp className={styles.whaticons} /></i>
+              <i>
+                <IoDesktopSharp className={styles.whaticons} />
+              </i>
               <div className={styles.whaticondetails}>
-                <h5 style={{fontSize:"1.25rem"}}>Web Development</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                       eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h5 style={{ fontSize: "1.25rem" }}>Web Development</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
               </div>
             </div>
             <div className={styles.carddetails}>
-              <i><GiArcheryTarget className={styles.whaticons} /></i>
+              <i>
+                <GiArcheryTarget className={styles.whaticons} />
+              </i>
               <div className={styles.whaticondetails}>
-                <h5 style={{fontSize:"1.25rem"}}>Seo Marketing</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                       eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h5 style={{ fontSize: "1.25rem" }}>Seo Marketing</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className={styles.awards}>
-      <div className={styles.line}></div>
+        <div className={styles.line}></div>
 
-      <div className={styles.awardscontainer}>
-        <div><h3 style={{fontSize:'2.5rem'}}>Awards</h3></div>
-        <div className={styles.awardsdetails} data-aos="fade-right">
-          <div className={styles.awarditem}>
-            <div className={styles.awardlogo}></div>
-            <div className={styles.awardtext}>
-            <h6 style={{fontSize:'1.2rem'}}>Creative Designer</h6>
-            <p>Site of the day</p>
+        <div className={styles.awardscontainer}>
+          <div>
+            <h3 style={{ fontSize: "2.5rem" }}>Awards</h3>
+          </div>
+          <div className={styles.awardsdetails} data-aos="fade-right">
+            <div className={styles.awarditem}>
+              <div className={styles.awardlogo}></div>
+              <div className={styles.awardtext}>
+                <h6 style={{ fontSize: "1.2rem" }}>Creative Designer</h6>
+                <p>Site of the day</p>
+              </div>
+            </div>
+            <div className={styles.awarditem}>
+              <div className={styles.awardlogo1}></div>
+              <div className={styles.awardtext}>
+                <h6 style={{ fontSize: "1.2rem" }}>Yearly Best Performer</h6>
+                <p>Site of the day</p>
+              </div>
+            </div>
+            <div className={styles.awarditem}>
+              <div className={styles.awardlogo2}></div>
+              <div className={styles.awardtext}>
+                <h6 style={{ fontSize: "1.2rem" }}>Best Learner Award</h6>
+                <p>Site of the day</p>
+              </div>
             </div>
           </div>
-          <div className={styles.awarditem}>
-          <div className={styles.awardlogo1}></div>
-            <div className={styles.awardtext}>
-            <h6 style={{fontSize:'1.2rem'}}>Yearly Best Performer</h6>
-            <p>Site of the day</p>
-            </div>
-            
-          </div>
-          <div className={styles.awarditem}>
-          <div className={styles.awardlogo2}></div>
-            <div className={styles.awardtext}>
-            <h6 style={{fontSize:'1.2rem'}}>Best Learner Award</h6>
-            <p>Site of the day</p>
-            </div>
-          </div>
-          
         </div>
       </div>
 
+      <div className={styles.Testmonials}>
+        <div className={styles.line}></div>
+        <h3 style={{ fontSize: "2.5rem" }}>Testmonials</h3>
+          <div className={styles.testcards}  data-aos="fade-up">
+          {/* <Slider {...settings}> */}
 
+            {test.map((test)=>(
+            <div className={styles.testdetails}>
+              <div className={styles.testmainimage}>
+                <div className={styles.testimage}></div>
+
+                <div className={styles.testdescription}>
+                  <p>
+                  {test.description}
+                  </p>
+
+                  <p>Nancy Byers</p>
+                  <p>CEO at ib-themes</p>
+                </div>
+          
+              </div>
+            
+              
+            </div>
+              ))}
+                      {/* </Slider> */}
+
+
+          
+
+         
+          </div>
       </div>
     </>
   );
 };
+
+const test=[{
+  
+  description:`  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+  Aut voluptatem ipsa maxime sit similique praesentium,
+  laudantium fuga dolorum minima id, doloribus recusandae!
+  Distinctio nesciunt dolor tenetur`,
+
+},
+{
+  
+  description:`  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+  Aut voluptatem ipsa maxime sit similique praesentium,
+  laudantium fuga dolorum minima id, doloribus recusandae!
+  Distinctio nesciunt dolor tenetur`,
+
+},
+
+
+]
 
 export default Biography;

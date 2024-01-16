@@ -10,7 +10,6 @@ const App = () => {
   return (
     
     <div className={styles}>
-      <h1>Hello</h1>
             <AnimatedCursor
             outerSize={16}
             innerSize={8}

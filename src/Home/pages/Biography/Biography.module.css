@@ -255,6 +255,54 @@
     flex-direction:column ;
 }
 
+.Testmonials {
+    background: whitesmoke;
+    height: 100%;
+    padding-inline: 4rem;
+    padding-bottom: 2rem;
+
+
+}
+
+.testcards{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.testdetails{
+    display: flex;
+    background-color: white;
+    height: 70%;
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.testmainimage{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-inline: 1rem;
+    padding-top: 1.5rem;
+} 
+
+.testimage{
+    background: url(../../../assets/team-1.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 7rem;
+    width: 45%;
+    
+}
+
+.testdescription{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+}
+
 @media screen and (max-width:1384px) {
     .main {
         display: flex;
@@ -366,6 +414,21 @@
         align-items: center;
     
         
+    }
+    .testcards{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 1rem;
+    }
+
+    .testmainimage{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding-inline: 1rem;
+        padding-top: 1.5rem;
     }
 
     
