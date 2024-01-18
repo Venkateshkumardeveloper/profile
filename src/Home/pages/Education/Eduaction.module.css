@@ -1,0 +1,111 @@
+.main{
+    height: 100%;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-block: 1rem;
+}
+
+
+.education{
+    padding-block: 2rem;
+
+}
+.educationtitle{
+    font-size: 2rem;
+}
+
+.educationdetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.educationbox{
+    height: 90%;
+    width: 70%;
+    padding-block:2rem ;
+    background-color: #F7F7FF;
+    padding-left: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.educationboxdetails{
+    line-height: 2px;
+}
+.educationinfo{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+.educationtech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 30rem;
+
+}
+
+.number{
+    font-size: 1.4rem;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.educationpercentage{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.mainpercentage{
+    display: flex;
+}
+
+.percentage{
+    height: 0.5rem;
+    width: 25rem;
+    background-color:orange;
+}
+
+.percentage1{
+    height: 0.5rem;
+    width: 2rem;
+    background-color:gray;
+}
+
+@media screen and (max-width:1384px) {
+
+    .educationdetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+}
+
+
+@media screen and (max-width:600px){
+
+    .educationbox{
+        width: 90%;
+    }
+    .percentage{
+        width: 90%;
+    }
+}

@@ -60,6 +60,8 @@ const Experience = () => {
             </div>
 
         ))}
+                <div className={styles.line}></div>
+
       </div>
     </>
   );

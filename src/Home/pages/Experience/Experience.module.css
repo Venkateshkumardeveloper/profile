@@ -51,6 +51,18 @@
     border-radius: 5px;
 }
 
+.line{
+    height: 10%;
+    width: 100%;
+    background: url(../../../assets/border-dark.png);
+    background-position: 50%;
+    background-repeat: repeat-x;
+    background-size: auto 6px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+
 @media screen and (max-width:1384px) {
 
     .experiencecard{

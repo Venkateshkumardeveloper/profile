@@ -1,0 +1,58 @@
+.main{
+    height: 100%;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: whitesmoke;
+    padding-block: 3rem;
+    position: relative;
+
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input{
+    margin: 0.5rem;
+}
+
+.map{
+    padding-block: 5rem;
+    width: 90%;
+}
+
+.footer{
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 3rem; */
+    gap: 1rem;
+}
+
+.footertext{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+
+.footerlogo1:hover {
+    color: orange;
+}
