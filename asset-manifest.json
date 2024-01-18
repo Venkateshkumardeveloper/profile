@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce2a60d2.css",
+    "main.js": "/static/js/main.133ec021.js",
+    "static/media/m-portfolio-1.jpg": "/static/media/m-portfolio-1.ed003722d4160dfc3ea9.jpg",
+    "static/media/nairobi.png": "/static/media/nairobi.b75400a4fc634dc5ae7a.png",
+    "static/media/m-portfolio-3.jpg": "/static/media/m-portfolio-3.e5bd146d12c2f7ed7ff8.jpg",
+    "static/media/m-portfolio-7.jpg": "/static/media/m-portfolio-7.57cf1bb8c2d52b8d8e85.jpg",
+    "static/media/about-me.jpg": "/static/media/about-me.419c1c75de842d8f756d.jpg",
+    "static/media/m-portfolio-5.jpg": "/static/media/m-portfolio-5.d4435b08818381274048.jpg",
+    "static/media/team-1.jpg": "/static/media/team-1.fcff62871f9747d1534e.jpg",
+    "static/media/m-portfolio-2 (1).jpg": "/static/media/m-portfolio-2 (1).0484f770a0fbe5029e30.jpg",
+    "static/media/m-portfolio-6.jpg": "/static/media/m-portfolio-6.0630f7a30667033b9035.jpg",
+    "static/media/m-portfolio-4.jpg": "/static/media/m-portfolio-4.db1dd4bd4c7ca3174c76.jpg",
+    "static/media/blog-1.jpg": "/static/media/blog-1.2de978c6f43fdb22946b.jpg",
+    "static/media/blog-3.jpg": "/static/media/blog-3.681d3bc001e04676eef5.jpg",
+    "static/media/m-portfolio-9.jpg": "/static/media/m-portfolio-9.342ff5b0bc0038ba679d.jpg",
+    "static/media/blog-2.jpg": "/static/media/blog-2.31bec78e70e98be1fd6e.jpg",
+    "static/media/blog-4.jpg": "/static/media/blog-4.8fb03c002f3ee46399ed.jpg",
+    "static/media/m-portfolio-8.jpg": "/static/media/m-portfolio-8.3bc0a94c1212c0cf01bf.jpg",
+    "static/media/women.png": "/static/media/women.ca67d39d0f2ffcf62e04.png",
+    "static/media/csda.png": "/static/media/csda.ef7f44cfa08244327911.png",
+    "index.html": "/index.html",
+    "main.ce2a60d2.css.map": "/static/css/main.ce2a60d2.css.map",
+    "main.133ec021.js.map": "/static/js/main.133ec021.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce2a60d2.css",
+    "static/js/main.133ec021.js"
+  ]
+}
