@@ -1,8 +1,9 @@
 import React from 'react'
-import Home from './Home/pages/Home'
 import styles from './App.css'
 import 'aos/dist/aos.css'
 import AnimatedCursor from "react-animated-cursor"
+
+import Navigator from './Home/pages/Navigator'
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
             innerScale={0.4}
             outerScale={5} />
 
-        <Home/>
+      <Navigator/>
 
     </div>
   )

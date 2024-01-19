@@ -17,7 +17,7 @@ const Contact = () => {
    <>
     <div className={styles.main}>
 
-        <div className={styles.contact}>
+        <div className={styles.contact} data-aos="fade-right">
             <div className={styles.contactitem1}>
                 <h3>What’s your story? Get in touch</h3>
                 <p>Always available for freelancing if the right project comes along, Feel free to contact me.</p>
@@ -36,7 +36,8 @@ const Contact = () => {
                 </form>
             </div>
             <div className={styles.map}>
-            <MapComponent location={requiredLocation} />
+                
+            <MapComponent location={requiredLocation} data-aos="fade-right" />
             </div>
     
             

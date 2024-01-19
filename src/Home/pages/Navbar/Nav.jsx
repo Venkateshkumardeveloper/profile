@@ -7,8 +7,12 @@ import { PiNotebook } from "react-icons/pi";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { FaBlog } from "react-icons/fa";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
+import { MdCropPortrait } from "react-icons/md";
+
 import { FaToggleOn } from "react-icons/fa";
 
+
+import { Link } from "react-router-dom";
 
 
 
@@ -29,22 +33,35 @@ const Nav = () => {
           <p>N</p>
         </div>
         <div className={styles.navdetails}>
+          <Link to='/'>
           <p className={styles.navicons}>
-            <FaHome /> </p>
+            <FaHome /> </p></Link>
+            <Link to='/banner'>
           <p className={styles.navicons1}>
-            <IoMan /> </p>
+            <IoMan /> </p></Link>
+            <Link to='/bio'>
             <p className={styles.navicons1}>
             <PiNotebook />
-            </p>
+            </p></Link>
+            <Link to='edu'>
             <p className={styles.navicons1}>
             <MdOutlineWorkOutline />
             </p>
+            </Link>
+            <Link to='/exp'>
             <p className={styles.navicons1}>
             <FaBlog />
             </p>
+            </Link>
+            <Link to='portfolio'>
+            <p className={styles.navicons1}>
+            <MdCropPortrait />
+
+            </p></Link>
+            <Link to='con'>
             <p className={styles.navicons1}>
             <BsFillTelephoneOutboundFill />
-            </p>
+            </p></Link>
             <p className={styles.navicons1}>
             <FaToggleOn onClick={darkTheme} onDoubleClick={lightTheme} />
             </p>
