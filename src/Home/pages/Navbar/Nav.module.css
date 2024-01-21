@@ -81,7 +81,7 @@
     .navdetails{
         display: flex;
         /* flex-direction: column; */
-        gap: 17%;
+        gap: 5%;
         position: absolute;
         top: 0;
         right: 20;

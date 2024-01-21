@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './Navbar/Nav'
+// import Nav from './Navbar/Nav'
 import Banner from './Banner/Banner'
 import Biography from './Biography/Biography'
 import Experience from './Experience/Experience'
@@ -11,7 +11,7 @@ import Contact from './Contact/Contact'
 const Home = () => {
   return (
     <div >
-        <Nav/>
+        {/* <Nav/> */}
         <Banner/>
         <Biography/>
         <Experience/>
